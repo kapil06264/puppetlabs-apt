@@ -147,7 +147,6 @@
 #
 # @param source_key_defaults
 #   The fault `source_key` settings
-#
 class apt (
   Hash $update_defaults = {
     'frequency' => 'reluctantly',
